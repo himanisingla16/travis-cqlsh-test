@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "cassandra-driver": "^3.2.2",
+    "kafka-node": "^2.2.0",
     "redis": "^2.8.0",
     "thunk-redis": "^2.1.2"
   }
