@@ -5,10 +5,6 @@ chai.should();
 
 describe('Redis Travis Test Case', function() {
 
-  before(function(done) {
-  	client.on('connect', done);
-  });
-
   it('should create list b', function(done) {
   	client.set('z', '20').then(function() {
   		done();
